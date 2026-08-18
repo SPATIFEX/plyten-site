@@ -1,0 +1,16 @@
+---
+        import BaseLayout from '../layouts/BaseLayout.astro';
+        import Status from '../components/Status.astro';
+        const lang = 'en';
+        ---
+        <BaseLayout lang={lang} title="Plyten — A connected workspace for project models, presentations, feedback, decisions and releases." description="A connected workspace for project models, presentations, feedback, decisions and releases.">
+          <section class="shell hero">
+            <div><p class="eyebrow">Plyten</p><Status label="In development" /></div>
+            <h1>A connected workspace for project models, presentations, feedback, decisions and releases.</h1>
+            <p class="lede">Plyten connects project models, presentations, feedback, revisions and governed releases in one cross-device workflow.</p>
+            <div class="actions"><a class="button primary" href="/workflow/">Explore the direction</a></div>
+          </section>
+          <section class="shell"><h2 class="sr-only">Core directions</h2><div class="grid"><article class="card"><h3>Review in context</h3><p>Comments remain attached to the exact model version, viewpoint and artifact under review.</p></article>
+<article class="card"><h3>Revision intelligence</h3><p>New versions are compared honestly, with unsupported identity reported instead of hidden.</p></article>
+<article class="card"><h3>Governed delivery</h3><p>Decisions and approved project releases remain traceable across desktop, tablet and mobile.</p></article></div></section>
+        </BaseLayout>
